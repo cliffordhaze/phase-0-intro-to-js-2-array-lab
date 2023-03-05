@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-05T18:58:21.272Z",
+    "end": "2023-03-05T18:58:21.835Z",
+    "duration": 563
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:6:14)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "cats is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
